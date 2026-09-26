@@ -1,0 +1,6 @@
+.git
+.git_off
+.next
+node_modules
+*.tsbuildinfo
+.env*
