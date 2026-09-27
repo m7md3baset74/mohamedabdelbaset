@@ -138,7 +138,7 @@ export const projects: Project[] = [
     },
     stack: ["Next.js", "TailwindCSS", "TYpeScript"],
     image: "/Work/3baset.art.png",
-    width: 1600,
+    width: 1080,
     height: 654,
     position: "left top",
     tint: "#ff2d3a",
