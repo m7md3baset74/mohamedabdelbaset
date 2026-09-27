@@ -137,14 +137,14 @@ export const projects: Project[] = [
       ar: "متجر إلكتروني فاخر لعرض السجاد اليدوي الفني، يجمع بين الحرفية التقليدية والتصميمات الفنية المميزة لتقديم تجربة تسوق أنيقة واحترافية.",
     },
     stack: ["Next.js", "TailwindCSS", "TYpeScript"],
-    image: "/Work/3basetStudio.jpeg",
+    image: "/work/3basetStudio.jpeg",
     width: 1600,
     height: 911,
     position: "left top",
     tint: "#ff2d3a",
     live: "https://3baset.art/",
     repo: "https://github.com/m7md3baset74/3basetstudio",
-    
+    featured: true,
   },
   {
     slug: "fitelite",
@@ -162,7 +162,6 @@ export const projects: Project[] = [
     tint: "#ff2d3a",
     live: "https://fitelite-gym.vercel.app/",
     repo: "https://github.com/m7md3baset74/fitelite-gym",
-    featured: true,
   },
   {
     slug: "inventory",
