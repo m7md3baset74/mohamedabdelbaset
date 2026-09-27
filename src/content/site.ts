@@ -1,4 +1,5 @@
 export const locales = ["en", "ar"] as const;
+import { Work } from "@/components/work";
 export type Locale = (typeof locales)[number];
 export const isLocale = (value: string): value is Locale =>
   (locales as readonly string[]).includes(value);
@@ -33,9 +34,12 @@ export const profile = {
   cv: "/Mohamed_Abdelbaset_CV.pdf",
   github: "https://github.com/m7md3baset74",
   socials: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/mohamed-abd-elbaset-033644213" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/mohamed-abd-elbaset-033644213",
+    },
     { label: "GitHub", href: "https://github.com/m7md3baset74" },
-    { label: "Instagram", href: "https://www.instagram.com/3baset_74" },
+    { label: "Instagram", href: "https://www.instagram.com/3baset.art" },
     { label: "Facebook", href: "https://www.facebook.com/share/16UaYr1GJC/" },
   ],
 };
@@ -92,7 +96,13 @@ export const projects: Project[] = [
       en: "A high-traffic tracking dashboard serving thousands of requests a day. Debounced API calls, Upstash Redis caching and tightly controlled re-renders keep it smooth.",
       ar: "لوحة تتبّع عالية الضغط تخدم آلاف الطلبات يوميًا. استدعاءات API مُنظَّمة (debounce) وتخزين مؤقت عبر Upstash Redis وتحكّم دقيق في إعادة الرسم تجعلها سلسة دائمًا.",
     },
-    stack: ["Next.js", "TypeScript", "TailwindCSS", "Upstash Redis", "REST APIs"],
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Upstash Redis",
+      "REST APIs",
+    ],
     image: "/work/order-tracker.webp",
     width: 1100,
     height: 898,
@@ -119,6 +129,24 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "3basetStudio",
+    title: { en: "3baset Studio", ar: "3baset Studio" },
+    kind: { en: "Artworks · Website", ar: "لوحات فنية · موقع" },
+    summary: {
+      en: "A premium e-commerce website showcasing handcrafted artistic rugs, combining traditional craftsmanship with unique artwork and an elegant shopping experience.",
+      ar: "متجر إلكتروني فاخر لعرض السجاد اليدوي الفني، يجمع بين الحرفية التقليدية والتصميمات الفنية المميزة لتقديم تجربة تسوق أنيقة واحترافية.",
+    },
+    stack: ["Next.js", "TailwindCSS", "TYpeScript"],
+    image: "/Work/3basetStudio.jpeg",
+    width: 1600,
+    height: 654,
+    position: "left top",
+    tint: "#ff2d3a",
+    live: "https://3baset.art/",
+    repo: "https://github.com/m7md3baset74/3basetstudio",
+    featured: true,
+  },
+  {
     slug: "fitelite",
     title: { en: "FitElite Gym", ar: "نادي FitElite" },
     kind: { en: "Fitness · Website", ar: "لياقة · موقع" },
@@ -134,7 +162,6 @@ export const projects: Project[] = [
     tint: "#ff2d3a",
     live: "https://fitelite-gym.vercel.app/",
     repo: "https://github.com/m7md3baset74/fitelite-gym",
-    featured: true,
   },
   {
     slug: "inventory",
@@ -287,32 +314,109 @@ export type Skill = {
 };
 
 export const skills: Skill[] = [
-  { key: "react", version: "^19", group: "dependencies", matches: ["React.js", "Next.js"] },
+  {
+    key: "react",
+    version: "^19",
+    group: "dependencies",
+    matches: ["React.js", "Next.js"],
+  },
   { key: "next", version: "^16", group: "dependencies", matches: ["Next.js"] },
-  { key: "typescript", version: "^5", group: "dependencies", matches: ["TypeScript"] },
-  { key: "javascript", version: "ES2024", group: "dependencies", matches: ["JavaScript"] },
-  { key: "tailwindcss", version: "^4", group: "dependencies", matches: ["TailwindCSS"] },
+  {
+    key: "typescript",
+    version: "^5",
+    group: "dependencies",
+    matches: ["TypeScript"],
+  },
+  {
+    key: "javascript",
+    version: "ES2024",
+    group: "dependencies",
+    matches: ["JavaScript"],
+  },
+  {
+    key: "tailwindcss",
+    version: "^4",
+    group: "dependencies",
+    matches: ["TailwindCSS"],
+  },
   { key: "html", version: "5", group: "dependencies", matches: ["*"] },
   { key: "css", version: "3", group: "dependencies", matches: ["*"] },
-  { key: "framer-motion", version: "^12", group: "dependencies", matches: ["Framer Motion"] },
+  {
+    key: "framer-motion",
+    version: "^12",
+    group: "dependencies",
+    matches: ["Framer Motion"],
+  },
   { key: "vue", version: "^3", group: "dependencies", matches: ["Vue.js"] },
   { key: "pinia", version: "^3", group: "dependencies", matches: ["Pinia"] },
-  { key: "zustand", version: "^5", group: "dependencies", matches: ["Zustand"] },
+  {
+    key: "zustand",
+    version: "^5",
+    group: "dependencies",
+    matches: ["Zustand"],
+  },
   { key: "prisma", version: "^6", group: "dependencies", matches: ["Prisma"] },
-  { key: "postgresql", version: "^17", group: "dependencies", matches: ["PostgreSQL"] },
-  { key: "@upstash/redis", version: "^1", group: "dependencies", matches: ["Upstash Redis"] },
+  {
+    key: "postgresql",
+    version: "^17",
+    group: "dependencies",
+    matches: ["PostgreSQL"],
+  },
+  {
+    key: "@upstash/redis",
+    version: "^1",
+    group: "dependencies",
+    matches: ["Upstash Redis"],
+  },
   { key: "resend", version: "^4", group: "dependencies", matches: ["Resend"] },
-  { key: "rest-api", version: "http/1.1", group: "dependencies", matches: ["REST APIs"] },
-  { key: "laravel", version: "^12", group: "dependencies", matches: ["Laravel"] },
-  { key: "sass", version: "^1", group: "dependencies", hint: { en: "toolbox", ar: "toolbox" } },
-  { key: "bootstrap", version: "^5", group: "dependencies", hint: { en: "toolbox", ar: "toolbox" } },
-  { key: "git", version: "^2", group: "devDependencies", hint: { en: "daily", ar: "daily" } },
-  { key: "postman", version: "^11", group: "devDependencies", hint: { en: "every API", ar: "every API" } },
+  {
+    key: "rest-api",
+    version: "http/1.1",
+    group: "dependencies",
+    matches: ["REST APIs"],
+  },
+  {
+    key: "laravel",
+    version: "^12",
+    group: "dependencies",
+    matches: ["Laravel"],
+  },
+  {
+    key: "sass",
+    version: "^1",
+    group: "dependencies",
+    hint: { en: "toolbox", ar: "toolbox" },
+  },
+  {
+    key: "bootstrap",
+    version: "^5",
+    group: "dependencies",
+    hint: { en: "toolbox", ar: "toolbox" },
+  },
+  {
+    key: "git",
+    version: "^2",
+    group: "devDependencies",
+    hint: { en: "daily", ar: "daily" },
+  },
+  {
+    key: "postman",
+    version: "^11",
+    group: "devDependencies",
+    hint: { en: "every API", ar: "every API" },
+  },
   { key: "vite", version: "^7", group: "devDependencies", matches: ["Vite"] },
-  { key: "vercel", version: "latest", group: "devDependencies", hint: { en: "ships it", ar: "ships it" } },
+  {
+    key: "vercel",
+    version: "latest",
+    group: "devDependencies",
+    hint: { en: "ships it", ar: "ships it" },
+  },
 ];
 
 export const projectsUsing = (skill: Skill) =>
   skill.matches
-    ? projects.filter((p) => skill.matches!.some((m) => m === "*" || p.stack.includes(m)))
+    ? projects.filter((p) =>
+        skill.matches!.some((m) => m === "*" || p.stack.includes(m)),
+      )
     : [];

@@ -4,7 +4,7 @@
   --color-bg: #E2E2E2;
   --color-surface: rgb(255 255 255 / 0.95);
   --color-raised: #1c1a18;
-  --color-line: rgb(237 234 228 / 0.09);
+  --color-line: rgb(137 134 128 / 0.25);
   --color-line-strong: rgb(155 155 155 / 0.9);
   --color-fg: #030303;
   --color-muted: #676768;
@@ -14,10 +14,10 @@
   --color-ok: #3dd68c;
 
   /* Chrome DevTools box-model overlay colours */
-  --color-ins-content: rgb(111 168 220 / 0.55);
-  --color-ins-padding: rgb(147 196 125 / 0.55);
-  --color-ins-border: rgb(255 229 153 / 0.66);
-  --color-ins-margin: rgb(246 178 107 / 0.55);
+  --color-ins-content: rgb(111 168 220 / 0.01);
+  --color-ins-padding: rgb(147 196 125 / 0.01);
+  --color-ins-border: rgb(255 229 153 / 0.01);
+  --color-ins-margin: rgb(246 178 107 / 0.01);
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }

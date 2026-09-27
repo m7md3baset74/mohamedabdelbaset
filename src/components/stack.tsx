@@ -72,7 +72,7 @@ export function Stack({ lang }: { lang: Locale }) {
       <div className="mt-14 grid grid-cols-1 gap-6 md:mt-20 lg:grid-cols-12">
         <Reveal className="lg:col-span-7">
           <div dir="ltr" className="overflow-hidden rounded-[22px] border border-line bg-surface">
-            <div className="flex items-center gap-4 border-b border-line bg-raised/60 ps-4">
+            <div className="flex items-center gap-4 border-b border-line bg-raised/3.5 ps-4">
               <span className="flex gap-1.5" aria-hidden>
                 <span className="size-2.5 rounded-full bg-line-strong" />
                 <span className="size-2.5 rounded-full bg-line-strong" />
@@ -130,7 +130,7 @@ export function Stack({ lang }: { lang: Locale }) {
               })}
             </div>
 
-            <div className="flex items-center justify-between gap-4 border-t border-line bg-raised/60 px-4 py-2 font-mono text-[11px] text-dim">
+            <div className="flex items-center justify-between gap-4 border-t border-line bg-raised/3.5 px-4 py-2 font-mono text-[11px] text-dim">
               <span className="flex items-center gap-2">
                 <span className="size-1.5 rounded-full bg-ok" /> main
               </span>

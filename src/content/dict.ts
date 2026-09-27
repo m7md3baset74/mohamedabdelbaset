@@ -22,7 +22,7 @@ const en = {
   },
   hero: {
     based: "Based in Cairo, EG",
-    available: "Available for new projects",
+    available: "Available for frontend opportunities",
     tagline:
       "I build fast, responsive and bilingual web interfaces with React & Next.js. The kind people enjoy using and teams enjoy maintaining.",
     ctaWork: "See the work",
@@ -49,10 +49,10 @@ const en = {
       "I'm a frontend developer from Cairo who turns ideas into fast, *responsive* interfaces. Over the past year I've shipped real products for real clients: a *bilingual* luxury real-estate site, a live order tracker handling *thousands* of requests a day, and contributions to AutoMechanic's official platform.",
     body: "I care about the details you feel before you notice them: layouts that mirror perfectly into Arabic, animations that never drop a frame, and code the next developer will thank me for. I work closely with teams, communicate clearly, and take projects from the first brief to a production deploy.",
     stats: [
-      { value: 12, suffix: "", label: "projects shipped" },
-      { value: 1, suffix: "+", label: "year of professional experience" },
-      { value: 3, suffix: "", label: "bilingual AR / EN builds" },
-      { value: 3, suffix: "", label: "client sites live in production" },
+      { value: 20, suffix: "", label: "projects shipped" },
+      { value: 2, suffix: "+", label: "year of professional experience" },
+      { value: 4, suffix: "", label: "bilingual AR / EN builds" },
+      { value: 7, suffix: "", label: "client sites live in production" },
     ],
     cv: "Download CV",
   },
@@ -184,10 +184,10 @@ const ar: Dict = {
       "أنا مطوّر واجهات أمامية من القاهرة، أحوّل الأفكار إلى واجهات سريعة *ومتجاوبة*. خلال العام الماضي أطلقت منتجات حقيقية لعملاء حقيقيين: موقع عقارات فاخر *بلغتين*، ومتتبّع طلبات مباشر يتعامل مع *آلاف* الطلبات يوميًا، ومساهمات في المنصة الرسمية لـ AutoMechanic.",
     body: "أهتم بالتفاصيل التي تشعر بها قبل أن تلاحظها: تصميم ينعكس بدقة عند التحويل إلى العربية، وحركات لا تتقطع أبدًا، وكود سيشكرني عليه المطوّر التالي. أعمل عن قرب مع الفرق، وأتواصل بوضوح، وأتابع المشروع من أول فكرة حتى النشر الفعلي.",
     stats: [
-      { value: 12, suffix: "", label: "مشروعًا منجزًا" },
-      { value: 1, suffix: "+", label: "سنة من الخبرة العملية" },
-      { value: 3, suffix: "", label: "مشاريع ثنائية اللغة عربي / إنجليزي" },
-      { value: 3, suffix: "", label: "مواقع لعملاء تعمل الآن" },
+      { value: 20, suffix: "", label: "مشروعًا منجزًا" },
+      { value: 2, suffix: "+", label: "سنة من الخبرة العملية" },
+      { value: 4, suffix: "", label: "مشاريع ثنائية اللغة عربي / إنجليزي" },
+      { value: 7, suffix: "", label: "مواقع لعملاء تعمل الآن" },
     ],
     cv: "تحميل السيرة الذاتية",
   },
