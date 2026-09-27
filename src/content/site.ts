@@ -137,7 +137,7 @@ export const projects: Project[] = [
       ar: "متجر إلكتروني فاخر لعرض السجاد اليدوي الفني، يجمع بين الحرفية التقليدية والتصميمات الفنية المميزة لتقديم تجربة تسوق أنيقة واحترافية.",
     },
     stack: ["Next.js", "TailwindCSS", "TYpeScript"],
-    image: "/Work/3basetStudio.jpeg",
+    image: "/Work/3baset.art.png",
     width: 1600,
     height: 654,
     position: "left top",
