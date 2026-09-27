@@ -144,7 +144,7 @@ export const projects: Project[] = [
     tint: "#ff2d3a",
     live: "https://3baset.art/",
     repo: "https://github.com/m7md3baset74/3basetstudio",
-    featured: true,
+    
   },
   {
     slug: "fitelite",
@@ -162,6 +162,7 @@ export const projects: Project[] = [
     tint: "#ff2d3a",
     live: "https://fitelite-gym.vercel.app/",
     repo: "https://github.com/m7md3baset74/fitelite-gym",
+    featured: true,
   },
   {
     slug: "inventory",
