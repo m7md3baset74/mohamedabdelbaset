@@ -48,7 +48,7 @@ export const profile = {
 export const emailjs = {
   serviceId: "service_v9i45ll",
   templateId: "template_v19peze",
-  publicKey: "HhZxgzzt4w3ZzWiuX",
+  publicKey: "j3ioj1EO350qfBz5V",
 };
 
 export type Project = {
