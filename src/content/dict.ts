@@ -49,10 +49,10 @@ const en = {
       "I'm a frontend developer from Cairo who turns ideas into fast, *responsive* interfaces. Over the past year I've shipped real products for real clients: a *bilingual* luxury real-estate site, a live order tracker handling *thousands* of requests a day, and contributions to AutoMechanic's official platform.",
     body: "I care about the details you feel before you notice them: layouts that mirror perfectly into Arabic, animations that never drop a frame, and code the next developer will thank me for. I work closely with teams, communicate clearly, and take projects from the first brief to a production deploy.",
     stats: [
-      { value: 20, suffix: "", label: "projects shipped" },
+      { value: 21, suffix: "", label: "projects shipped" },
       { value: 2, suffix: "+", label: "year of professional experience" },
-      { value: 4, suffix: "", label: "bilingual AR / EN builds" },
-      { value: 7, suffix: "", label: "client sites live in production" },
+      { value: 5, suffix: "", label: "bilingual AR / EN builds" },
+      { value: 8, suffix: "", label: "client sites live in production" },
     ],
     cv: "Download CV",
   },

@@ -73,6 +73,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "nour-Adel",
+    title: { en: "Nour Adel · Interior Designer", ar:"نور عادل للتصميم الداخلي" },
+    kind: { en: "Designs · Client site", ar: "تصميم المساحات الداخلية · موقع لعميل" },
+    summary: {
+      en: "A bilingual (En/Ar) website with full RTL support, built with Next.js, TypeScript, and Framer Motion. Buttery-smooth scrolling, and a warm, to life by fluid, scroll-driven motion.",
+      ar: "موقع ثنائي اللغة (عربي/إنجليزي) بدعم كامل لاتجاه RTL، مبني بـ Next.js وTS وFramer Motion. فيه سكرول ناعم وكيرسر مخصص وتصميم هادئ، وبيتحرك بأنيميشن مدروس، وعناصر بتظهر مع السكرول، وتفاعلات صغيرة بتحسسك إن كل حركة مقصودة.",
+    },
+    stack: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
+    image: "/work/nouradel.png",
+    width: 1896,
+    height: 916,
+    tint: "#708238",
+    live: "https://nouradel-tau.vercel.app/",
+    featured: true,
+  },
+  {
     slug: "kayan-avenue",
     title: { en: "Kayan Avenue Properties", ar: "كيان أفينيو للعقارات" },
     kind: { en: "Real estate · Client site", ar: "عقارات · موقع لعميل" },
